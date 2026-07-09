@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mundo Patitas - La tienda más bacán de productos para tus mascotas en Chile. Alimentos, accesorios y regalitos para perros y gatos.">
+    <title>Mundo Patitas | Todo para tu regalón 🐾</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Mukta:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="visually-hidden-focusable">Saltar al contenido principal</a>
+
+    <!-- Top bar -->
+    <div class="top-bar bg-coral text-cream text-center py-2 fw-semibold">
+        ¡Envío gratis en Santiago por compras sobre $30.000! 🚚💨
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-cream sticky-top shadow-sm py-3">
+        <div class="container">
+            <a class="navbar-brand font-heading text-turquoise fs-3 d-flex align-items-center gap-2" href="#">
+                Mundo Patitas
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-4 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm8 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-4 6c-3.3 0-6 2.7-6 6v2c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-2c0-3.3-2.7-6-6-6z"/>
+                </svg>
+            </a>
+            <button class="navbar-toggler border-0 text-turquoise" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navegación">
+                <i class="bi bi-list fs-1"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3 fw-semibold">
+                    <li class="nav-item"><a class="nav-link text-dark nav-hover" href="#catalogo">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark nav-hover" href="#beneficios">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark nav-hover" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark nav-hover" href="#faq">Dudas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero bg-turquoise position-relative overflow-hidden pt-5 pb-5 pt-lg-0 pb-lg-0">
+            <div class="container">
+                <div class="row align-items-center min-vh-75 py-5">
+                    <div class="col-lg-6 text-cream z-2 text-center text-lg-start">
+                        <h1 class="display-3 mb-4">Haz que su colita no pare de moverse</h1>
+                        <p class="lead mb-4 fs-4">En <strong>Mundo Patitas</strong> tenemos todo lo que tu regalón necesita. Desde el alimento más rico hasta los juguetes más locos.</p>
+                        <a href="#catalogo" class="btn btn-mustard btn-lg rounded-pill px-5 py-3 fw-bold shadow-lg hero-btn">¡Ver productos! <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="col-lg-6 z-2 mt-5 mt-lg-0 text-center">
+                        <img src="https://loremflickr.com/600/600/dog,happy/all?lock=10" alt="Perrito feliz" class="img-fluid rounded-circle border border-5 border-mustard shadow-lg hero-img tilt-card">
+                    </div>
+                </div>
+            </div>
+            <!-- Decoración SVG fondo -->
+            <div class="position-absolute top-0 start-0 w-100 h-100 z-1 opacity-25">
+                <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10%" cy="20%" r="50" fill="#FFFBF2" />
+                    <circle cx="90%" cy="80%" r="80" fill="#FFFBF2" />
+                    <circle cx="80%" cy="10%" r="30" fill="#E8B84B" />
+                    <circle cx="20%" cy="90%" r="60" fill="#F2705C" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Trust proof -->
+        <section class="py-4 bg-mustard text-dark text-center">
+            <div class="container">
+                <p class="fs-4 mb-0 fw-bold font-heading">🌟 ¡Más de 5.000 mascotas felices a lo largo de todo Chile! 🇨🇱</p>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section id="beneficios" class="py-5 bg-cream">
+            <div class="container py-4">
+                <h2 class="text-center text-turquoise mb-5 display-5">¿Por qué elegirnos?</h2>
+                <div class="row g-4 text-center">
+                    <div class="col-md-4 tilt-card">
+                        <div class="bg-white p-4 rounded-4 shadow-sm h-100 border-top border-4 border-coral">
+                            <div class="text-coral mb-3">
+                                <i class="bi bi-star-fill display-4"></i>
+                            </div>
+                            <h3 class="fs-4 text-dark">Calidad Premium</h3>
+                            <p class="text-muted">Solo marcas probadas y aprobadas por nuestros propios peludos.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 tilt-card">
+                        <div class="bg-white p-4 rounded-4 shadow-sm h-100 border-top border-4 border-turquoise">
+                            <div class="text-turquoise mb-3">
+                                <i class="bi bi-truck display-4"></i>
+                            </div>
+                            <h3 class="fs-4 text-dark">Despacho Flash</h3>
+                            <p class="text-muted">Llegamos rapidito a la puerta de tu casa. Ellos no pueden esperar.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 tilt-card">
+                        <div class="bg-white p-4 rounded-4 shadow-sm h-100 border-top border-4 border-mustard">
+                            <div class="text-mustard mb-3">
+                                <i class="bi bi-heart-fill display-4"></i>
+                            </div>
+                            <h3 class="fs-4 text-dark">Hecho con Amor</h3>
+                            <p class="text-muted">Te asesoramos con cariño para que elijas justo lo que necesita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filterable Catalog -->
+        <section id="catalogo" class="py-5 bg-white">
+            <div class="container py-4">
+                <h2 class="text-center text-coral mb-4 display-5">Vitrinea pa' tu mascota</h2>
+                
+                <!-- Filters -->
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-5" role="group" aria-label="Filtros de catálogo">
+                    <button class="btn filter-btn active" data-filter="all" aria-pressed="true">Todos</button>
+                    <button class="btn filter-btn" data-filter="perros" aria-pressed="false">Perros</button>
+                    <button class="btn filter-btn" data-filter="gatos" aria-pressed="false">Gatos</button>
+                    <button class="btn filter-btn" data-filter="alimento" aria-pressed="false">Alimento</button>
+                    <button class="btn filter-btn" data-filter="accesorios" aria-pressed="false">Accesorios</button>
+                    <button class="btn filter-btn" data-filter="nada" aria-pressed="false">Aves</button>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="row g-4" id="product-grid" aria-live="polite">
+                    <!-- Product 1 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="perros accesorios">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/dog,leash/all?lock=1" class="card-img-top" alt="Correa para perro turquesa">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-turquoise mb-2">Accesorios Perros</span>
+                                <h3 class="card-title fs-5 font-heading">Correa Reflex Turquesa</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$12.990</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="gatos accesorios">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/cat,scratcher/all?lock=2" class="card-img-top" alt="Torre rascador para gato">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-coral mb-2">Accesorios Gatos</span>
+                                <h3 class="card-title fs-5 font-heading">Rascador Torre Gato</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$24.990</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="perros alimento">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/dog,food/all?lock=3" class="card-img-top" alt="Saco de alimento premium para perro">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-mustard text-dark mb-2">Alimento Perros</span>
+                                <h3 class="card-title fs-5 font-heading">Alimento Premium Adulto 15kg</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$45.000</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="gatos alimento">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/cat,food/all?lock=4" class="card-img-top" alt="Saco de alimento para gato castrado">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-mustard text-dark mb-2">Alimento Gatos</span>
+                                <h3 class="card-title fs-5 font-heading">Alimento Gato Castrado 8kg</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$32.500</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="perros gatos accesorios">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/pet,bowl/all?lock=5" class="card-img-top" alt="Plato doble color mostaza">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-turquoise mb-2">Accesorios Ambos</span>
+                                <h3 class="card-title fs-5 font-heading">Plato Doble Mostaza</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$8.990</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 6 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="gatos accesorios">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/cat,toy/all?lock=6" class="card-img-top" alt="Juguete forma de ratón">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-coral mb-2">Accesorios Gatos</span>
+                                <h3 class="card-title fs-5 font-heading">Juguete Ratón con Catnip</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$4.500</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 7 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="perros gatos accesorios">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/pet,bed/all?lock=7" class="card-img-top" alt="Cama acolchada color coral">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-turquoise mb-2">Accesorios Ambos</span>
+                                <h3 class="card-title fs-5 font-heading">Cama Nube Coral</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$29.990</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 8 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="perros alimento">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/dog,snack/all?lock=8" class="card-img-top" alt="Snack dental para perros">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-mustard text-dark mb-2">Alimento Perros</span>
+                                <h3 class="card-title fs-5 font-heading">Snack Dental Perro</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$3.990</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 9 -->
+                    <div class="col-sm-6 col-lg-4 product-item" data-category="gatos accesorios">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden tilt-card">
+                            <div class="product-img-wrapper">
+                                <img src="https://loremflickr.com/400/300/cat,litter/all?lock=9" class="card-img-top" alt="Saco de arena sanitaria">
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <span class="badge bg-coral mb-2">Accesorios Gatos</span>
+                                <h3 class="card-title fs-5 font-heading">Arena Sanitaria Premium 10kg</h3>
+                                <p class="card-text fw-bold fs-4 text-coral">$15.990</p>
+                                <button class="btn btn-outline-mustard w-100 rounded-pill fw-bold">Agregar al carro</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- No results message -->
+                <div id="no-results" class="text-center py-5 d-none">
+                    <i class="bi bi-emoji-frown display-1 text-muted mb-3"></i>
+                    <h3 class="font-heading text-dark">Pucha, no pillamos na'</h3>
+                    <p class="text-muted fs-5">No tenemos productos en esta categoría por ahora. ¡Pronto traeremos cositas nuevas!</p>
+                    <button class="btn btn-turquoise rounded-pill px-4 mt-3 reset-filter-btn">Ver todos los productos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonios" class="py-5 bg-cream">
+            <div class="container py-4 text-center">
+                <h2 class="text-turquoise mb-5 display-5">Lo que dicen nuestros petlovers</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-5">
+                        <div class="bg-white p-4 rounded-4 shadow-sm h-100 position-relative tilt-card">
+                            <i class="bi bi-quote text-mustard display-1 position-absolute top-0 start-0 opacity-25 ms-3 mt-2"></i>
+                            <p class="fs-5 fst-italic mb-4 position-relative z-1">"Mi cachupín amó su cama nueva. Llegó al día siguiente y la atención fue un 7."</p>
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="https://loremflickr.com/100/100/woman,portrait/all?lock=1" alt="Foto de Camila" class="rounded-circle border border-3 border-coral" width="60">
+                                <div class="text-start">
+                                    <h4 class="h6 mb-0 font-heading">Camila Soto</h4>
+                                    <span class="text-muted small">Mamá de un Pug</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="bg-white p-4 rounded-4 shadow-sm h-100 position-relative tilt-card">
+                            <i class="bi bi-quote text-mustard display-1 position-absolute top-0 start-0 opacity-25 ms-3 mt-2"></i>
+                            <p class="fs-5 fst-italic mb-4 position-relative z-1">"La arena sanitaria me salvó la vida (y el olor del depto). Totalmente recomendados."</p>
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <img src="https://loremflickr.com/100/100/man,portrait/all?lock=2" alt="Foto de Diego" class="rounded-circle border border-3 border-turquoise" width="60">
+                                <div class="text-start">
+                                    <h4 class="h6 mb-0 font-heading">Diego Pérez</h4>
+                                    <span class="text-muted small">Esclavo de 3 gatos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="py-5 bg-turquoise text-cream">
+            <div class="container py-4">
+                <h2 class="text-center mb-5 display-5 text-cream">Dudas existenciales</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion accordion-custom" id="faqAccordion">
+                            <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0 shadow-sm">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button fs-5 font-heading text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        ¿Cuánto se demora el envío?
+                                    </button>
+                                </h3>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body bg-white text-dark">
+                                        Si eres de Santiago y compras antes de las 13:00 hrs, ¡te llega el mismo día! Para regiones, nos demoramos entre 2 a 5 días hábiles, dependiendo de tu comuna.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0 shadow-sm">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fs-5 font-heading text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Tienen tienda física?
+                                    </button>
+                                </h3>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body bg-white text-dark">
+                                        Por ahora somos 100% online, así nos aseguramos de darte los mejores precios sin los costos de un local físico. ¡Pero respondemos el WhatsApp más rápido que un galgo!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0 shadow-sm">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fs-5 font-heading text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ¿Qué medios de pago aceptan?
+                                    </button>
+                                </h3>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body bg-white text-dark">
+                                        Aceptamos de todo: tarjetas de débito, crédito y transferencia bancaria directa (que viene con un cariñito extra en tu pedido).
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA / Contact -->
+        <section class="py-5 bg-mustard text-dark text-center">
+            <div class="container py-4">
+                <h2 class="display-5 mb-4">¿No pillaste lo que buscabas?</h2>
+                <p class="fs-4 mb-4">Escríbenos por WhatsApp y hacemos la magia de conseguírtelo. ¡Estamos pa' ayudarte!</p>
+                <a href="#" class="btn btn-dark btn-lg rounded-pill px-5 py-3 fw-bold shadow">
+                    <i class="bi bi-whatsapp me-2"></i> Hablar con un humano
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-cream pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <a class="text-cream text-decoration-none font-heading fs-3 d-flex align-items-center gap-2 mb-3" href="#">
+                        Mundo Patitas
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-4 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm8 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-4 6c-3.3 0-6 2.7-6 6v2c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-2c0-3.3-2.7-6-6-6z"/>
+                        </svg>
+                    </a>
+                    <p class="text-white-50">Haciendo felices a perros y gatos a lo largo de todo Chile, una pata a la vez.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="font-heading fs-5 mb-3">Links rápidos</h4>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a href="#catalogo" class="text-white-50 text-decoration-none footer-link">Catálogo</a></li>
+                        <li><a href="#beneficios" class="text-white-50 text-decoration-none footer-link">Beneficios</a></li>
+                        <li><a href="#faq" class="text-white-50 text-decoration-none footer-link">Dudas Frecuentes</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none footer-link">Términos y Condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="font-heading fs-5 mb-3">Síguenos</h4>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-cream fs-4 footer-social"><i class="bi bi-instagram"></i> <span class="visually-hidden">Instagram</span></a>
+                        <a href="#" class="text-cream fs-4 footer-social"><i class="bi bi-facebook"></i> <span class="visually-hidden">Facebook</span></a>
+                        <a href="#" class="text-cream fs-4 footer-social"><i class="bi bi-tiktok"></i> <span class="visually-hidden">TikTok</span></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary mb-3">
+            <div class="text-center text-white-50 small">
+                <p class="mb-0">&copy; 2026 Mundo Patitas. Sitio ficticio creado con ❤️.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Bundle with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
